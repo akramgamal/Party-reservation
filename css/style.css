@@ -1,0 +1,85 @@
+#home{
+    background-image: url("../imgs/events-heavenly-header.jpg");
+    background-position: 100%;
+    background-size: cover;
+}
+.home-content{
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#open{
+    cursor: pointer;
+    position: absolute;
+    left:500px;
+}
+.side{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    left:0px;
+    background-color: #414658;
+}
+.side h3{
+    padding:20px;
+    margin-top: 20px;
+}
+.side span{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.side span:hover ,.side i:hover{
+    color:rgb(214, 46, 51) ;
+}
+.side i{
+    font-size: 22px;
+    position: absolute;
+    right:20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.singer{
+    width: 50%;
+    text-align: center;
+}
+.num{
+    background-color: rgb(230, 130, 133);
+    color: white;
+    cursor: pointer;
+}
+.info{
+    background-color: rgb(204,204 ,204);
+    display: none;
+}
+.countdown{
+    background-image: url('../imgs/invitation-2508607__340.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.countcontent{
+background-color: rgba(214, 46, 51 , 0.6);
+}
+#timer1,#timer2,#timer3,#timer4{
+    border: 1px solid white;
+    font-size: 22px;
+}
+.textmail{
+    color:red;
+}
+.icons i{
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    color:#999;
+    padding-top: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.icons i:hover{
+background-color: red;
+color:white;
+}
+.remain #remainNum{
+    color:red;
+}
